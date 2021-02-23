@@ -7,11 +7,11 @@ const rollbar = require('./rollbar')
 const meetup = require('./meetup')
 
 function setup(client) {
-  onboarding.setup(client)
-  commands.setup(client)
-  admin.setup(client)
-  clubApplication.setup(client)
-  privateChat.setup(client)
+  // onboarding.setup(client)
+  // commands.setup(client)
+  // admin.setup(client)
+  // clubApplication.setup(client)
+  // privateChat.setup(client)
   meetup.setup(client)
 }
 
