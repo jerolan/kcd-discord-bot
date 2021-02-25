@@ -43,7 +43,8 @@
     "p-memoize": "^4.0.1",
     "redent": "^3.0.0",
     "rollbar": "^2.19.4",
-    "set-interval-async": "^1.0.33"
+    "set-interval-async": "^1.0.33",
+    "express": "latest"
   },
   "devDependencies": {
     "kcd-scripts": "^6.6.0",
