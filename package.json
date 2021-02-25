@@ -44,7 +44,7 @@
     "redent": "^3.0.0",
     "rollbar": "^2.19.4",
     "set-interval-async": "^1.0.33",
-    "express": "latest"
+    "express": "4.17.1"
   },
   "devDependencies": {
     "kcd-scripts": "^6.6.0",
