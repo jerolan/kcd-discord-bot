@@ -3,8 +3,10 @@ require('dotenv').config({
 })
 
 const Discord = require('discord.js')
+const express = require('express')
 const {setup, rollbar} = require('./src')
 
+const app = express()
 const client = new Discord.Client()
 
 rollbar.log('logging in discord client')
@@ -19,3 +21,9 @@ client.on('ready', error => {
     setup(client)
   }
 })
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.listen(process.env.NODE_ENV || 3000)
